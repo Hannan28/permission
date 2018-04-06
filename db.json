@@ -39,7 +39,7 @@
             		"id": "123123123",
             		"route": "/api/v1/roles/delete/",
             		"alias": "roles-delete"
-            	},
+            	}
             ]
         }
     },
