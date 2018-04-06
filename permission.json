@@ -1,0 +1,48 @@
+{
+    "data": {
+        "user": {
+            "id": "5abcd5b2275c36807e7c0412",
+            "phone_number": "0823123532",
+            "photo": "https://jukir-file.s3-ap-southeast-1.amazonaws.com/Photo-Profile-Mitra/denyakbar20180329120154.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI2VOHAFPRWKBM5VA%2F20180406%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180406T032652Z&X-Amz-Expires=60000&X-Amz-SignedHeaders=host&X-Amz-Signature=a6ebc9961651c6f130ebc80e7cb8658cdc9d717c3cfef9afab4c21cac8dd2cbf",
+            "status": 0,
+            "fullname": "Deny Akbar",
+            "address": "jatimulya",
+            "username": "denyakbar",
+            "email": "deny@gmail.com",
+            "password": "JDJhJDEwJE4xOHd3T2IxSHVWWjRjVmx3bGNya2VKRG9DYkhGSXVQNzh2UkFxSy9VZGxRVWpaRWtwcnVh",
+            "created_at": "2018-03-29T12:01:54.152Z",
+            "updated_at": "2018-04-06T03:26:52.739Z",
+            "auth_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MjMwNzE2MTIsImlkIjoiZGVueWFrYmFyIiwib3JpZ19pYXQiOjE1MjI5ODUyMTJ9.X5gBwMWTv6hdljJnUGPCNY8jztqJk9YWFBF68SJZcDY",
+            "roles": [
+                {
+                    "id": "5ab9d0b1adcc6c8f391b1ac9",
+                    "name": "new user",
+                    "type": "default user",
+                    "description": "ini adalah default role yang otomatis melekat pada user yang baru ter registrasi",
+                    "rule_name": "default userr",
+                    "created_at": "0001-01-01T00:00:00Z",
+                    "updated_at": "2018-04-05T04:30:05.771Z"
+                }
+            ],
+            "privileges": [
+            	{
+            		"id": "123456789",
+            		"route": "/api/v1/roles/create/",
+            		"alias": "roles-create"
+            	},
+            	{
+            		"id": "987654321",
+            		"route": "/api/v1/roles/index/",
+            		"alias": "roles-index"
+            	},
+            	{
+            		"id": "123123123",
+            		"route": "/api/v1/roles/delete/",
+            		"alias": "roles-delete"
+            	},
+            ]
+        }
+    },
+    "messages": "success",
+    "status": 200
+}
