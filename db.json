@@ -1,5 +1,6 @@
 {
-    "data": {
+    "data": [
+        {
         "user": {
             "id": "5abcd5b2275c36807e7c0412",
             "phone_number": "0823123532",
@@ -42,7 +43,7 @@
             	}
             ]
         }
-    },
+    }],
     "messages": "success",
     "status": 200
 }
